@@ -1,0 +1,652 @@
+// 主题字段参考 https://code.visualstudio.com/api/references/theme-color
+{
+	"name": "green soft",
+	"type": "light",
+	"colors": {
+		// 基础颜色
+		"foreground": "#657B83",
+		"focusBorder": "#408fff80",
+		// widget 小组件
+		"widget.shadow": "#ececec",
+		// 选中的内容
+		"selection.background": "#3399FF",
+		// "descriptionForeground": "#0000001A",
+		// "errorForeground": "",
+		// "icon.foreground": "",
+
+		// 下拉小部件的颜色，如 terminal 和 output 中
+		// 下拉小部件框
+		"dropdown.background": "#FFF",
+		"dropdown.foreground": "#000",
+		"dropdown.border": "#DCD0A8",
+		// 下拉小部件的列表的颜色
+		"dropdown.listBackground": "#FFF",
+		// 输入部件的内容
+		"input.background": "#fff",
+		"input.foreground": "#373224",
+		// 未聚焦时的边框
+		"input.border": "#0000001A",
+		// "input.placeholderForeground": "",
+		// 已激活选项，如搜索时控制大小写、整词搜索、正则等的标签
+		// "inputOption.activeBackground": "#d0d0d0",
+        // "inputOption.activeBorder": "#408fff80",
+        // 下拉菜单 hover 背景
+        "list.activeSelectionBackground": "#5EA4EB",
+        // 列表 hover(文件列表)
+		"list.hoverBackground": "#E0EDDD",
+        // "list.inactiveSelectionBackground": "",
+        // "list.dropBackground": "",
+        // 列表聚焦(文件列表)
+		// "list.focusBackground": "#ff0000"
+        "list.highlightForeground": "#41A863",
+        // 按钮(如项目管理器中的 Open Folder)
+        "button.foreground": "#fff",
+        "button.background": "#3788F7",
+        "button.hoverBackground": "#0966E8",
+        // 编辑器
+        "editor.background": "#FFFAE8",
+		"editor.foreground": "#373224",
+		// 没有聚焦的编辑器中，选中内容的背景
+		"editor.inactiveSelectionBackground": "#BCD68D",
+		// 高亮光标所在行(背景)
+        "editor.lineHighlightBackground": "#00000012",
+        // 选中的内容
+        "editor.selectionBackground": "#BCD68D",
+        "editor.selectionHighlightBackground": "#BCD68D80",
+        // 光标
+        "editorCursor.foreground": "#000",
+        // 多栏分割线
+		"editorGroup.border": "#D8CA9E",
+		"editorGroupHeader.noTabsBackground": "#d0d0d0",
+		// 行号区背景
+        "editorGutter.background": "#FFFAE8",
+        // 行号
+        "editorLineNumber.foreground": "#B19371",
+		"editorWhitespace.foreground": "#BFBFBF",
+        // tab
+        "tab.inactiveBackground": "#D3CBB8",
+        "tab.inactiveForeground": "#545454",
+		"tab.border": "#D8CA9E",
+        "tab.activeBackground": "#FFFAE8",
+        "tab.activeForeground": "#0E0E0E",
+        // minimap
+        "minimap.selectionHighlight": "#B8AE91",
+        "progressBar.background": "#F00",
+        // badge 徽标
+        "badge.foreground": "#f8f8f2",
+        "activityBarBadge.background": "#007ACC",
+        "badge.background": "#E62A29",
+
+        // 标题栏
+        // "titleBar.activeBackground": "#d0d0d0",
+        "titleBar.activeBackground": "#FFF",
+		"titleBar.activeForeground": "#292929",
+		"titleBar.inactiveBackground": "#f4f4f4",
+		"titleBar.inactiveForeground": "#A3A3A3",
+        // 状态栏
+        "statusBar.border": "#a3a3a3",
+		// "statusBar.background": "#fff",
+		"statusBar.background": "#3788F7",
+		"statusBar.foreground": "#fff",
+		"statusBar.debuggingBackground": "#3788F7",
+		"statusBar.debuggingForeground": "#fff",
+		// "statusBar.noFolderBackground": "#fff",
+        // "statusBar.noFolderForeground": "#808080",
+		"statusBar.noFolderBackground": "#3788F7",
+		"statusBar.noFolderForeground": "#fff",
+        // Activity Bar(项目管理器入口, 全局搜索入口所在)
+        "activityBar.background": "#ececec",
+		"activityBar.border": "#a3a3a3",
+        "activityBar.foreground": "#696969",
+        // Sidebar 侧边栏(项目管理器等)
+		"sideBar.background": "#FFFAE8",
+        "sideBar.border": "#D8CA9E",
+        "sideBarSectionHeader.border": "#D8CA9E",
+		"sideBarSectionHeader.foreground": "#46433C",
+        "sideBarSectionHeader.background": "#FFFAE8",
+        // 菜单栏
+        "menu.background": "#FFF",
+        "menu.foreground": "#000",
+        // ctrl[+shift]+p
+		"pickerGroup.foreground": "#0066BF",
+
+		// 面板 终端 debugger 等
+		// Terminal.app's Basic theme
+		"panel.background": "#FFFAE8",
+		"panel.border": "#FFF",
+		// "panel.dropBackground": "",
+		"panelTitle.activeBorder": "#D8CA9E",
+		"panelTitle.activeForeground": "#0E0E0E",
+		"panelTitle.inactiveForeground": "#545454",
+		// "panelInput.border": "",
+		// "terminal.background": "#FFFAE8",
+		"terminal.ansiBlack": "#000",
+		"terminal.ansiBlue": "#0000B2",
+		"terminal.ansiBrightBlack": "#666",
+		"terminal.ansiBrightBlue": "#00F",
+		"terminal.ansiBrightCyan": "#00E5E5",
+		"terminal.ansiBrightGreen": "#00D900",
+		"terminal.ansiBrightMagenta": "#E500E5",
+		"terminal.ansiBrightRed": "#E50000",
+		"terminal.ansiBrightWhite": "#E5E5E5",
+		"terminal.ansiBrightYellow": "#E5E500",
+		"terminal.ansiCyan": "#00A6B2",
+		"terminal.ansiGreen": "#00A600",
+		"terminal.ansiMagenta": "#B200B2",
+		"terminal.ansiRed": "#900",
+		"terminal.ansiWhite": "#BFBFBF",
+		"terminal.ansiYellow": "#990",
+		// "terminal.foreground": "#000",
+		"terminalCursor.background": "#000",
+		"terminalCursor.foreground": "#7F7F7F"
+	},
+	"tokenColors": [
+		{
+			// 注释
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			// 块注释
+			"name": "Comments: Preprocessor",
+			"scope": "comment.block.preprocessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			// 文档注释
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			// 无效
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			// 操作符
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			// 关键字(词) 如 js 中的 extends
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			// 类型关键字, 如 function const var 等
+			"name": "Types",
+			"scope": [
+				"storage.type",
+				"support.type"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#364BC0"
+			}
+		},
+		{
+			// 常量(语言)？
+			"name": "Language Constants",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#B58900"
+			}
+		},
+		{
+			// 变量(语言)？
+			"name": "Language Constants",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				// "foreground": "#C800A4"
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			// 普通的变量名
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				// 函数名(entity 实体)
+				"entity.name.function"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				// "foreground": "#AA3731"
+				"foreground": "#ae7a00"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			"name": "Classes",
+			"scope": [
+				// 类型
+				"entity.name.type",
+				// 类
+				"entity.name.class",
+				// 被继承的类
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7A3E9D"
+				// "foreground": "#268BD2"
+				// "foreground": "#3C7A03"
+			}
+		},
+		{
+			// ??
+			"name": "Exceptions",
+			"scope": "entity.name.exception",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			// ??
+			"name": "Sections",
+			"scope": "entity.name.section",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			// 数值常量
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#D33682"
+			}
+		},
+		{
+			// 常量和字符常量
+			"name": "Characters",
+			"scope": [
+				"constant.character",
+				"constant"
+			],
+			"settings": {
+				// "foreground": "#AB6526"
+				"foreground": "#CB4B16"
+			}
+		},
+		{
+			// 内置对象(非函数方法对象)
+			"name": "Support constant",
+			"scope": "support.constant",
+			"settings": { }
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				// "foreground": "#448C27"
+				"foreground": "#248C85"
+			}
+		},
+		{
+			//  转义字符
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			// 正则
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#D30102"
+			}
+		},
+		{
+			"name": "Strings: Symbols",
+			"scope": "constant.other.symbol",
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		/* {
+			// 标点 不做特殊处理，跟随相应内容
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#777777"
+			}
+		}, */
+		{
+			// 定义变量的标点??
+			"name": "Variable start",
+			"scope": "punctuation.definition.variable",
+			"settings": {
+				// "foreground": "#859900"
+				"foreground": "#f00"
+			}
+		},
+		{
+            "name": "List Start",
+            "scope": "beginning.punctuation.definition.list.markdown",
+            "settings": {
+				// "foreground": "#4E3B00"
+                "foreground": "#f00"
+            }
+		},
+		{
+            "name": "List Start",
+            "scope": "beginning.punctuation.definition.numbered.list.markdown",
+            "settings": {
+                // "foreground": "#4E759D"
+                "foreground": "#f00"
+            }
+        },
+		{
+			// ??
+			"name": "HTML: Doctype Declaration",
+			"scope": [
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.sgml.doctype entity.name.tag",
+				"meta.tag.sgml punctuation.definition.tag.html"
+			],
+			"settings": {
+				// "foreground": "#AAAAAA"
+				"foreground": "#f00"
+			}
+		},
+		/* {
+			// 标签的标点
+			"name": "HTML: Tags",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#790EAD"
+			}
+		}, */
+		{
+			// 标签名
+			"name": "HTML: Tag Names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#790EAD"
+			}
+		},
+		{
+			// html 属性名
+			"name": "HTML: Attribute Names",
+			"scope": [
+				"meta.tag entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#cb2d01"
+			}
+		},
+		{
+			"name": "HTML: Entities",
+			"scope": [
+				"constant.character.entity",
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			// 选择器
+			"name": "CSS: Selectors",
+			"scope": [
+				"meta.selector",
+				"meta.selector entity",
+				"meta.selector entity punctuation",
+				"entity.name.tag.css"
+			],
+			"settings": {
+				// "foreground": "#790EAD"
+				"foreground": "#cb2d01"
+			}
+		},
+		{
+			// 属性(json, css...)
+			"name": "CSS: Property Names",
+			"scope": [
+				"meta.property-name",
+				"support.type.property-name"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#3C7A03"
+			}
+		},
+		{
+			// 属性值
+			"name": "CSS: Property Values",
+			"scope": [
+				"meta.property-value",
+				"meta.property-value constant.other",
+				"support.constant.property-value"
+			],
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			// important 关键字
+			"name": "CSS: Important Keyword",
+			"scope": "keyword.other.important",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			// 修改标记 ??哪的
+			"name": "Markup: Changed",
+			"scope": "markup.changed",
+			"settings": {
+				"fontStyle": "", 
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			// ??
+			"name": "Markup: Deletion",
+			"scope": "markup.deleted",
+			"settings": {
+				"fontStyle":"bold",
+				"foreground": "#dc322f"
+			}
+		},
+		{
+			"name": "Markup: Emphasis",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup: Error",
+			"scope": "markup.error",
+			"settings": {
+				"foreground": "#dc322f"
+			}
+		},
+		{
+			"name": "Markup: Insertion",
+			"scope": "markup.inserted",
+			"settings": {
+				"background": "#eee8d5",
+				"foreground": "#219186"
+			}
+		},
+		{
+			// ??
+			"name": "Markup: Link",
+			"scope": "meta.link",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Markup: Output",
+			"scope": [
+				"markup.output",
+				"markup.raw"
+			],
+			"settings": {
+				// "foreground": "#777777"
+				"fontStyle": "",
+                "foreground": "#db0eb7"
+			}
+		},
+		{
+			"name": "Markup: Prompt",
+			"scope": "markup.prompt",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Markup: Heading",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#AA3731"
+			}
+		},
+		{
+			"name": "Markup: Strong",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Traceback",
+			"scope": "markup.traceback",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Markup: Underline",
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Markup Lists",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				// "foreground": "#448C27"
+				"foreground": "#35485c"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": [
+				"meta.diff.range",
+				"meta.diff.index",
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		}
+	]
+}
